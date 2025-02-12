@@ -372,6 +372,7 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
+
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
@@ -383,25 +384,25 @@ button {
       ),
       url(../images/Dark-bg-tab.jpg);
   }
-}
-@media screen and (min-resolution: 2x) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-tab-2x-min.jpg);
+
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab-2x-min.jpg);
+    }
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+  .hero-btn {
+    margin-top: 36px;
   }
 }
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  max-width: 496px;
-}
-.hero-btn {
-  margin-top: 36px;
-}
-
 @media screen and (min-width: 1158px) {
   .hero {
     padding-top: 188px;
@@ -413,21 +414,20 @@ button {
       ),
       url(../images/people-office1-min.jpg);
   }
-}
 
-@media screen and (min-resolution: 2x) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-2x-min.jpg);
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x-min.jpg);
+    }
+  }
+  .hero-btn {
+    margin-top: 48px;
   }
 }
-.hero-btn {
-  margin-top: 48px;
-}
-
 /*-----section 2 principles------*/
 .principles-icons {
   display: none;
